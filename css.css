@@ -1,0 +1,145 @@
+header,
+section,
+nav,
+figcaption,
+figure,
+article {
+    display: block;
+    
+}
+
+body {
+    color: #666666;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.page {
+    width: 1000px;
+    border: solid 2px #000000;
+    margin: 20px auto 20px auto;
+    background-image: url('image/bg.jpg');
+}
+
+header {
+    height: 500px;
+}
+
+nav {
+    background-color: rgb(216, 210, 210);
+    padding: 5px 0px 5px 0px;
+    height: 50px;
+    text-align: center;
+    color: rgb(161, 152, 152);
+}
+
+li {
+    display: inline;
+    
+}
+
+h1 {
+    text-indent: -9999px;
+    background-image: url('image/triangles.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+
+a {
+    color: #a79c9e;
+    text-decoration: none;
+    letter-spacing: 7px;
+    margin: 8px;
+    font-size: 15px;
+    margin-left: 0px;
+   
+}
+
+.current {
+    color: green;
+} 
+.current2, 
+.current3, 
+.current4, 
+.current5, 
+.current6  {
+    color: gray;
+}
+
+section.courses {
+    margin: auto;
+    width: 750px;
+    height: 1000px;
+
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 190px;
+    margin: 5px 5px 5px 5px;
+}
+
+.special {
+    float: left;
+    height: 390px;
+    margin: 1px 5px 5px 5px;
+
+}
+
+p,
+hgroup {
+    color: honeydew;   
+}
+
+figcaption {
+    float: left;
+    margin: auto;
+    color: honeydew;
+}
+
+footer {
+    text-align: center;
+    background-color: #d3cece;
+    padding: 2px;
+    margin: 5px auto 5px auto;
+    height: 20px;
+}
+
+#menu {
+    color: white;
+    right: 0;
+    top: 50%;
+    width: 15em;
+    position: fixed;
+    margin-top: 8em;
+    background-color: green;
+    background: rgba(8, 230, 8, 0.6);
+    border-top-left-radius:  80px 50px;
+    border-bottom-left-radius: 80px 50px;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fontAwsome {
+   position: fixed;
+   top: 0%;
+   width: 43px;
+   left: 0;
+}
+
+a:hover {
+    color: rgb(167, 20, 57);
+}
+
+
+
+
+
+
+
